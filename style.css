@@ -3,9 +3,11 @@ body {
     font-family: 'Poppins';
     color: black;
 }
-h3{
-     color: #2CD3E1;
+
+h3 {
+    color: #2CD3E1;
 }
+
 .card {
     height: fit-content;
     border: none;
@@ -36,4 +38,10 @@ img {
     background-color: #2CD3E1;
     border: 1px solid white;
     text-size-adjust: 40px;
+}
+
+.cardcontact {
+    border: 1px solid black;
+    shape-outside: margin-box;
+    box-shadow: slategrey;
 }
