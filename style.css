@@ -1,11 +1,16 @@
 body {
-    background-color: white;
+    /* background-color: white; */
     font-family: 'Poppins';
     color: black;
+    background: url('image/bg10.jpg');
 }
 
 h3 {
     color: #2CD3E1;
+}
+
+#header {
+    margin-top: 80px;
 }
 
 .card {
