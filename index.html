@@ -8,7 +8,10 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <!--Import Google Icon Font-->
+    <!--Import Google Icon & Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tomorrow:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Portofolio Fitria</title>
@@ -16,38 +19,32 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-dark ">
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#header">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#AboutMe">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#Project">Project</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#ContactUs">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
+    <nav>
+        <div class="logo">
+            <h5>Fitria Nurul Hikhmah</h5>
         </div>
+        <div id="menu-toggle" class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul id="menu-list" class="hidden">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#AboutMe">About Me</a></li>
+            <li><a href="#Project">Project</a></li>
+            <li><a href="#ContactUs">Contact Us</a></li>
+        </ul>
     </nav>
 
     <div class="container">
         <section id="header">
-            <div class="card p-5" style="background-image: url(image/bgcard.jpg);">
-                <div class=" row">
+            <div class="card" style="background-image: url(image/bgcard.jpg);">
+                <div class="row">
                     <div class="col-md-7" style="margin-top: 7rem; padding-left: 100px;">
                         <h4>Fitria Nurul Hikhmah</h4>
                         <p>Junior Web Development</p>
                         <a class="btn btn-danger">About Me</a>
                     </div>
                     <div class="col-md-5">
-                        <img class="w-50" src="image/me.png" alt="">
+                        <img id="me" class="w-50" src="image/me.png" alt="">
                     </div>
                 </div>
             </div>
@@ -171,6 +168,9 @@
     <footer>
         <div class=" text-center mt-4">&copy; 2023-fitria</div>
     </footer>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
