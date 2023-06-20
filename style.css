@@ -129,6 +129,10 @@ img {
 
     #me {
         display: flex;
+    }
 
+    #Project .card {
+        height: 100%;
+        width: 100%;
     }
 }
